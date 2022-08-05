@@ -1,0 +1,11 @@
+.book-logo {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.app-header {
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+}
