@@ -9,3 +9,15 @@
 h1 {
   text-align: center;
 }
+
+footer {
+  font-size: 15px;
+}
+
+main {
+  text-align: center;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
