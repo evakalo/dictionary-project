@@ -1,3 +1,5 @@
+import Synonyms from "./Synonyms";
+
 export default function Meaning(props) {
   console.log(props.meaning);
   return (
@@ -6,10 +8,11 @@ export default function Meaning(props) {
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            {definition.definition}
+            Definition: {definition.definition}
             <br />
-
-            {definition.example}
+            <em>{definition.example}</em>
+            <br />
+            <Synonyms synonyms={props.meaning.synonyms} />
           </div>
         );
       })}
