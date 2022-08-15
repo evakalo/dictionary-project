@@ -1,0 +1,29 @@
+.Dictionary section {
+  margin: 10px;
+  padding: 10px;
+}
+.Form {
+  border: 3px solid #b7cadb;
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  color: #7e8a96;
+  margin-top: 20px;
+}
+input[type="search"]:focus {
+  outline: none;
+  border-color: #96a7b6;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+
+  font-size: 20px;
+}
+
+.Results {
+  padding: 20px;
+}
+
+.Synonyms ul {
+}

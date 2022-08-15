@@ -1,23 +1,21 @@
-.book-logo {
+.sova-logo {
   height: 200px;
   display: block;
   margin: 0 auto;
 }
-.app-header {
-  margin: 20px;
-}
+
 h1 {
   text-align: center;
 }
 
-footer {
-  font-size: 15px;
-}
-
 main {
   text-align: center;
+  background-color: #f3e9dd;
+  border-radius: 20px;
 }
 footer {
   margin-top: 20px;
   text-align: center;
+  font-size: 15px;
+  background-color: ;
 }

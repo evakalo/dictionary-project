@@ -1,5 +1,5 @@
 import "./App.css";
-import book from "./book.png";
+import sova from "./sova.png";
 import Dictionary from "./Dictionary.js";
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
         <header className="App-header">
           {" "}
           <h1>Dictionary</h1>
-          <img src={book} className="book-logo" alt="book" />
+          <img src={sova} className="sova-logo" alt="book" />
         </header>
         <main>
           <Dictionary />
