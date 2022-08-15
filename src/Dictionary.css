@@ -20,10 +20,29 @@ body {
 
   font-size: 20px;
 }
-
-.Results {
-  padding: 20px;
+a {
+  text-decoration: none;
+  color: #a4bfd6;
+  font-weight: bolder;
 }
 
-.Synonyms ul {
+a:hover {
+  color: #b2b8a3;
+}
+.Example {
+  font-size: 20px;
+  color: #748a9c;
+}
+.Definitions {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.Synonyms {
+  list-style: none;
+  font-weight: bolder;
+  color: #a4bfd6;
+}
+.Synonyms h2 {
+  color: black;
 }
