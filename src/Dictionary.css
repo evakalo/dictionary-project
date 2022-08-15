@@ -19,8 +19,7 @@ input[type="search"]:focus {
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
-
+  font-family: "Josefin Sans", sans-serif, Helvetica, sans-serif;
   font-size: 20px;
 }
 a {
@@ -62,10 +61,12 @@ a:hover {
   margin-left: 10px;
 }
 
-.Synonyms {
+.Synonyms li {
+  display: inline;
   list-style: none;
   font-weight: bolder;
   color: #a4bfd6;
+  margin: 10px;
 }
 .Synonyms h2 {
   color: black;

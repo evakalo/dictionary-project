@@ -11,7 +11,7 @@ code {
     monospace;
 }
 h1 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Amatic SC", cursive, Helvetica, sans-serif;
   margin-top: 40px;
   font-size: 50px;
 }

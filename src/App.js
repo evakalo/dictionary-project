@@ -11,7 +11,7 @@ export default function App() {
           <img src={sova} className="sova-logo" alt="book" />
         </header>
         <main>
-          <Dictionary defaultKeyword="owl" />
+          <Dictionary defaultKeyword="knowledge" />
         </main>
         <footer>Coded by Eva Kalogjera </footer>
       </div>
