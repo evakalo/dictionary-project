@@ -7,11 +7,11 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           {" "}
-          <h1>Dictionary</h1>
+          <h1>Which word do you seek?</h1>
           <img src={sova} className="sova-logo" alt="book" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="owl" />
         </main>
         <footer>Coded by Eva Kalogjera </footer>
       </div>

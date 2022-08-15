@@ -1,6 +1,9 @@
 .Dictionary section {
   margin: 10px;
   padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 3px 0px rgb(0, 0, 0, 2%);
+  background-color: #f3e9dd;
 }
 .Form {
   border: 3px solid #b7cadb;
@@ -8,7 +11,7 @@
   height: 40px;
   border-radius: 5px 0 0 5px;
   color: #7e8a96;
-  margin-top: 20px;
+  margin: 10px;
 }
 input[type="search"]:focus {
   outline: none;
@@ -29,9 +32,30 @@ a {
 a:hover {
   color: #b2b8a3;
 }
+.Phonetics a {
+  border: 1px solid #b2b8a3;
+  color: white;
+  background-color: #b2b8a3;
+  padding: 6px;
+  margin: 4px;
+  border-radius: 20px;
+}
+
+.Phonetics a:hover {
+  border: 1px solid #b2b8a3;
+  color: white;
+  background-color: #89745e;
+  padding: 6px;
+  margin: 4px;
+  border-radius: 20px;
+}
+.Phonetics {
+  margin: 10px;
+}
 .Example {
   font-size: 20px;
-  color: #748a9c;
+  color: #a4bfd6;
+  font-weight: 600;
 }
 .Definitions {
   padding: 5px;
