@@ -2,7 +2,6 @@ import Meaning from "./Meaning.js";
 import Phonetic from "./Phonetic";
 import "./Dictionary.css";
 export default function Results(props) {
-  console.log(props.results);
   if (props.results) {
     return (
       <div className="Results">
