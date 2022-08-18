@@ -13,7 +13,16 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="knowledge" />
         </main>
-        <footer>Coded by Eva Kalogjera </footer>
+        <footer>
+          <a
+            href="https://github.com/evakalo/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code{" "}
+          </a>{" "}
+          by Eva Kalogjera{" "}
+        </footer>
       </div>
     </div>
   );

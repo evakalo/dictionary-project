@@ -69,12 +69,12 @@ a:hover {
   margin: 10px;
 }
 
-.Synonyms h2 {
-  color: black;
-}
-
 .Photos img {
   border-radius: 4px;
   margin-top: 2px;
   margin-bottom: 2px;
+}
+
+a {
+  color: white;
 }
